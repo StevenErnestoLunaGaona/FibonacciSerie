@@ -1,12 +1,16 @@
 import java.util.*;
 
 public class Serie {
+
+    //Atributos
     private Map<Integer, Long> valorList;
 
+    // Constructor de la clase
     public Serie(){
         this.valorList = new HashMap<>();
     }
 
+    // Metodo
     public long getFibonacci(int posicion){
         if (posicion == 0 || posicion == 1){
             return 1;
