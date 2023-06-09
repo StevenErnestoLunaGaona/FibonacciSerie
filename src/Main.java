@@ -7,6 +7,7 @@ public class Main {
             System.out.println("Fibonacci(" + i + "): " + fibonacci);
         }
 
+        //Imprimir valores almacenados en el HashMap
         System.out.println("\nValores almacenados en el HashMap:\n" + serie.getValorList());
     }
 }

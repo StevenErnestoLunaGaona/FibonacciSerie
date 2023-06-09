@@ -20,14 +20,17 @@ public class Serie {
         }
     }
 
+    //Constructor
     public Map<Integer, Long> getValorList(){
         return valorList;
     }
 
+    //Constructor
     public void setValorList(Map<Integer, Long> valorList){
         this.valorList = valorList;
     }
 
+    //Constructor
     @Override
     public String toString(){
         return "Serie{valor=" + valorList + '}';
